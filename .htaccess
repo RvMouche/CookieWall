@@ -7,15 +7,17 @@ RewriteEngine On
 # Uncomment this if you want to rewrite the root but the htaccess isn't inside root
 # RewriteBase / 
 
-RewriteCond %{HTTP_COOKIE} !kiwicookie=kiwicookieVal [NC]
+RewriteCond %{HTTP_COOKIE} !consentcookie=consentval1 [NC]
 
-# Let bots index your page
+# Let your website be indexed by bots - not complete; add your own
 RewriteCond %{HTTP_USER_AGENT} !AltaVista [NC]
 RewriteCond %{HTTP_USER_AGENT} !^Googlebot [NC]
 RewriteCond %{HTTP_USER_AGENT} !^Googlebot-Image [NC]
 RewriteCond %{HTTP_USER_AGENT} !^Googlebot-Mobile [NC]
 RewriteCond %{HTTP_USER_AGENT} !msnbot [NC]
 RewriteCond %{HTTP_USER_AGENT} !Slurp [NC]
+RewriteCond %{HTTP_USER_AGENT} !^Applebot [NC]
+RewriteCond %{HTTP_USER_AGENT} !Applebot [NC]
 
 # Load assets
 RewriteCond %{REQUEST_URI} !theme [NC]

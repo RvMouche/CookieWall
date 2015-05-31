@@ -6,10 +6,18 @@ define("REDIRECT_URL", "http://google.com");
 define("KEEP_LOG", true);
 
 # Name of your website
+<<<<<<< HEAD:kiwicookie/config.php
+<<<<<<< HEAD:cookiewall/config.php
+define("WEB_NAME", "CookieWall");
+=======
 define("WEB_NAME", "kiwicookie");
+>>>>>>> parent of d64cb23... Name change + Reduction of themes:kiwicookie/config.php
+=======
+define("WEB_NAME", "kiwicookie");
+>>>>>>> parent of d64cb23... Name change + Reduction of themes:kiwicookie/config.php
 
 # Date on wich last changes were applied
-define("CHANGE_DATE", "9-8-2012");
+define("CHANGE_DATE", "31-5-2015");
 
 # Choose language
 # Choises:

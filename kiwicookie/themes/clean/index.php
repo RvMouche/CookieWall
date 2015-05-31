@@ -22,8 +22,8 @@
 	<?php echo WARNING_P1; ?>
 	
 	<div id="buttons">
-		<button onclick="window.location='<?php echo $current."/cookie_policy?a"; ?>'"><?php echo WARNING_ACCEPT; ?></button>
-		<button onclick="window.location='<?php echo $current."/cookie_policy?d"; ?>'"><?php echo WARNING_DECLINE; ?></button>
+		<button onclick="window.location='<?php echo $current."/consent?a"; ?>'"><?php echo WARNING_ACCEPT; ?></button>
+		<button onclick="window.location='<?php echo $current."/consent?d"; ?>'"><?php echo WARNING_DECLINE; ?></button>
 	</div>
 		
 	<hr/>
