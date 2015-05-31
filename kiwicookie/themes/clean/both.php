@@ -39,8 +39,8 @@
 	<?php echo EN_WARNING_P1; ?>
 	
 	<div id="buttons">
-		<button onclick="window.location='<?php echo $current."/cookie_policy?a"; ?>'"><?php echo EN_WARNING_ACCEPT; ?></button>
-		<button onclick="window.location='<?php echo $current."/cookie_policy?d"; ?>'"><?php echo EN_WARNING_DECLINE; ?></button>
+		<button onclick="window.location='<?php echo $current."/consent?a"; ?>'"><?php echo EN_WARNING_ACCEPT; ?></button>
+		<button onclick="window.location='<?php echo $current."/consent?d"; ?>'"><?php echo EN_WARNING_DECLINE; ?></button>
 	</div>
 	
 	<hr/>
@@ -50,8 +50,8 @@
 	<?php echo NL_WARNING_P1; ?>
 	
 	<div id="buttons">
-		<button onclick="window.location='<?php echo $current."/cookie_policy?a"; ?>'"><?php echo NL_WARNING_ACCEPT; ?></button>
-		<button onclick="window.location='<?php echo $current."/cookie_policy?d"; ?>'"><?php echo NL_WARNING_DECLINE; ?></button>
+		<button onclick="window.location='<?php echo $current."/consent?a"; ?>'"><?php echo NL_WARNING_ACCEPT; ?></button>
+		<button onclick="window.location='<?php echo $current."/consent?d"; ?>'"><?php echo NL_WARNING_DECLINE; ?></button>
 	</div>
 	
 	<hr/>

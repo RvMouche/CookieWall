@@ -37,7 +37,7 @@ if($_COOKIE[$cookieName] == $cookieVal) {
 // Conditionvars
 $req = explode("/", $_SERVER['REQUEST_URI']);
 $lastReq = end($req);
-$paramKey = "cookie_policy?";
+$paramKey = "consent?";
 $condition = strpos($lastReq, $paramKey);
 
 // Condition
@@ -46,17 +46,17 @@ if($condition === false) {
   // We need to make this step and put the actual code in an else because of strpos
 }
 else {
-  if($lastReq == "cookie_policy?a") {
+  if($lastReq == "consent?a") {
     // Policy was accepted
     // Vars
     $domain = str_replace("www.", "", $_SERVER['HTTP_HOST']);
-    $target = str_replace("/cookie_policy?a", "", $_SERVER['REQUEST_URI']);
+    $target = str_replace("/consent?a", "", $_SERVER['REQUEST_URI']);
     $clientIP = find_ip();
     $browserInfo = $_SERVER['HTTP_USER_AGENT'];
     $time = time();
     
     // Make it work on root
-    if($_SERVER['REQUEST_URI'] == "/cookie_policy?a") {
+    if($_SERVER['REQUEST_URI'] == "/consent?a") {
       $target = "/";
     }
 
@@ -95,7 +95,7 @@ else {
     return;
     
   }
-  elseif($lastReq == "cookie_policy?d") {
+  elseif($lastReq == "consent?d") {
     // Policy declined (what an idiot)
     header('location: '.REDIRECT_URL);
     return;
