@@ -1,9 +1,3 @@
-# Under construction
-<sub>We are not responsable for any damage created or not prevented by this script</sub>   
-This is where the development of the succeeder of kiwicookie happens, for now the same license applies. Also lets of credits to Moeflon, who made all of this possible.
-
-This is no guarentee that anything following this sentence is still correct.
-
 # kiwicookie
 Dutch Cookie Law Script  
 <sub>We are not responsable for any damage created or not prevented by this script</sub>    
