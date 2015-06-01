@@ -6,7 +6,7 @@ define("REDIRECT_URL", "http://google.com");
 define("KEEP_LOG", true);
 
 # Name of your website
-define("WEB_NAME", "kiwicookie");
+define("WEB_NAME", "cookiewall");
 
 # Date on wich last changes were applied
 define("CHANGE_DATE", "9-8-2012");
