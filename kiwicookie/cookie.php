@@ -27,13 +27,13 @@ include_once($currentDir."/config.php");
 // Cookie vars
 $cookieName = "kiwicookie";
 $cookieVal = "kiwicookieVal";
-
+/*
 // Check for cookie
 if($_COOKIE[$cookieName] == $cookieVal) {
   // Permission Denied
   die("<h1>You shouldn't call this page directly.</h1>");
 }
-
+*/
 // Conditionvars
 $req = explode("/", $_SERVER['REQUEST_URI']);
 $lastReq = end($req);

@@ -8,7 +8,7 @@ define($prefix."WARNING_ACCEPT", "Ik ga akkoord");
 
 define($prefix."WARNING_DECLINE", "Ik ga niet akkoord");
 
-define($prefix."WARNING_TITLE1", "Deze site gebruikt cookies");
+define($prefix."WARNING_TITLE1", "Deze site gebruikt cookies en kaasjes");
 
 define($prefix."WARNING_P1", "Om deze website goed te laten werken en onze website te kunnen optimaliseren op uw beleving plaatsen wij kleine bestanden op uw computer (zogenoemde cookies) en analyseren wij het websitegebruik. Een zeer groot deel van de websites doen dit. Nieuwe wetgeving verplicht ons u hiervoor toestemming te vragen. U kunt <a href=\"#privacy$suffix\" onClick=\"show$suffix('privacy$suffix')\">hier</a> lezen hoe wij met uw privacy omgaan en <a href=\"#cookies$suffix\" onClick=\"show$suffix('cookies$suffix')\">hier</a> kunt u meer informatie vinden over cookies en hoe wij ze gebruiken.");
 
