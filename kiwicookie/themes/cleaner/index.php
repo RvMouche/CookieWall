@@ -1,7 +1,17 @@
 <DOCTYPE !html>
 <html>
 <head>
-<?php //include("$currentDir/themes/cleaner/css/style.css"); ?>
+<?php include("$currentDir/themes/cleaner/css/style.css"); ?>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script>
+		function show(elm) {
+			$('#'+elm).fadeIn('slow');
+		}
+		
+		function hide(elm) {
+			$('#'+elm).fadeOut('slow');
+		}
+	</script>
 </head>
 <?php
 $lang = LANG;
