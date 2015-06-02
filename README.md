@@ -1,3 +1,8 @@
+# Under construction
+This is where the development of the succeeder of kiwicookie happens, this script is not ready and should not be used yet. Also there is no guarentee information following 'kiwicookie' is still correct. 
+<sub>We are not responsable for any damage created or not prevented by this script</sub>    
+
+
 # kiwicookie
 Dutch Cookie Law Script  
 <sub>We are not responsable for any damage created or not prevented by this script</sub>    
